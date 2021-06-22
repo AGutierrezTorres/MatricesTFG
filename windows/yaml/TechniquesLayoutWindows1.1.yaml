@@ -1,0 +1,3867 @@
+version: 1.2
+file_type: technique-administration
+name: DataSourcesLayoutWindowsRedux
+platform:
+  - Windows
+  - PRE
+techniques:
+  - technique_id: T1001.002
+    technique_name: Steganography
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1001.003
+    technique_name: Protocol Impersonation
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1003
+    technique_name: OS Credential Dumping
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1003.001
+    technique_name: LSASS Memory
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1003.006
+    technique_name: DCSync
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1005
+    technique_name: Data from Local System
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1007
+    technique_name: System Service Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1008
+    technique_name: Fallback Channels
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1010
+    technique_name: Application Window Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1012
+    technique_name: Query Registry
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1014
+    technique_name: Rootkit
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1016
+    technique_name: System Network Configuration Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1016.001
+    technique_name: Internet Connection Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1018
+    technique_name: Remote System Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1021.001
+    technique_name: Remote Desktop Protocol
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1021.002
+    technique_name: SMB/Windows Admin Shares
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1021.006
+    technique_name: Windows Remote Management
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1025
+    technique_name: Data from Removable Media
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1027
+    technique_name: Obfuscated Files or Information
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1027.002
+    technique_name: Software Packing
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1027.004
+    technique_name: Compile After Delivery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1033
+    technique_name: System Owner/User Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1036
+    technique_name: Masquerading
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1036.004
+    technique_name: Masquerade Task or Service
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1036.005
+    technique_name: Match Legitimate Name or Location
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1037
+    technique_name: Boot or Logon Initialization Scripts
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1041
+    technique_name: Exfiltration Over C2 Channel
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1046
+    technique_name: Network Service Scanning
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1047
+    technique_name: Windows Management Instrumentation
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1048.002
+    technique_name: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1048.003
+    technique_name: Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1049
+    technique_name: System Network Connections Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1053.002
+    technique_name: At (Windows)
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1053.005
+    technique_name: Scheduled Task
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1055
+    technique_name: Process Injection
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1055.001
+    technique_name: Dynamic-link Library Injection
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1055.002
+    technique_name: Portable Executable Injection
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1055.003
+    technique_name: Thread Execution Hijacking
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1056
+    technique_name: Input Capture
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1056.001
+    technique_name: Keylogging
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1057
+    technique_name: Process Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1059
+    technique_name: Command and Scripting Interpreter
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1059.001
+    technique_name: PowerShell
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1059.003
+    technique_name: Windows Command Shell
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1059.006
+    technique_name: Python
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1059.007
+    technique_name: JavaScript
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1068
+    technique_name: Exploitation for Privilege Escalation
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1069.002
+    technique_name: Domain Groups
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1070
+    technique_name: Indicator Removal on Host
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1070.001
+    technique_name: Clear Windows Event Logs
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1070.002
+    technique_name: Clear Linux or Mac System Logs
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: null
+            score: -1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1070.003
+    technique_name: Clear Command History
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1071
+    technique_name: Application Layer Protocol
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1071.001
+    technique_name: Web Protocols
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1071.002
+    technique_name: File Transfer Protocols
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1071.003
+    technique_name: Mail Protocols
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1071.004
+    technique_name: DNS
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1072
+    technique_name: Software Deployment Tools
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1074.001
+    technique_name: Local Data Staging
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1074.002
+    technique_name: Remote Data Staging
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1078
+    technique_name: Valid Accounts
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1078.002
+    technique_name: Domain Accounts
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1078.003
+    technique_name: Local Accounts
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1082
+    technique_name: System Information Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1083
+    technique_name: File and Directory Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1087
+    technique_name: Account Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1087.001
+    technique_name: Local Account
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1087.002
+    technique_name: Domain Account
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1090
+    technique_name: Proxy
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1090.001
+    technique_name: Internal Proxy
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1090.002
+    technique_name: External Proxy
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1090.003
+    technique_name: Multi-hop Proxy
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1090.004
+    technique_name: Domain Fronting
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1095
+    technique_name: Non-Application Layer Protocol
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1098
+    technique_name: Account Manipulation
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1102
+    technique_name: Web Service
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1102.001
+    technique_name: Dead Drop Resolver
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1102.002
+    technique_name: Bidirectional Communication
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1104
+    technique_name: Multi-Stage Channels
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1105
+    technique_name: Ingress Tool Transfer
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1106
+    technique_name: Native API
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1110
+    technique_name: Brute Force
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1110.002
+    technique_name: Password Cracking
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1110.003
+    technique_name: Password Spraying
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1112
+    technique_name: Modify Registry
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1113
+    technique_name: Screen Capture
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1114.002
+    technique_name: Remote Email Collection
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1115
+    technique_name: Clipboard Data
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1119
+    technique_name: Automated Collection
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1120
+    technique_name: Peripheral Device Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1124
+    technique_name: System Time Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1132.001
+    technique_name: Standard Encoding
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1133
+    technique_name: External Remote Services
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1134.002
+    technique_name: Create Process with Token
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1135
+    technique_name: Network Share Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1136.001
+    technique_name: Local Account
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1140
+    technique_name: Deobfuscate/Decode Files or Information
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1189
+    technique_name: Drive-by Compromise
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1190
+    technique_name: Exploit Public-Facing Application
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1197
+    technique_name: BITS Jobs
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1199
+    technique_name: Trusted Relationship
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1201
+    technique_name: Password Policy Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1204.001
+    technique_name: Malicious Link
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1204.002
+    technique_name: Malicious File
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1213
+    technique_name: Data from Information Repositories
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1218.001
+    technique_name: Compiled HTML File
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1218.005
+    technique_name: Mshta
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1218.007
+    technique_name: Msiexec
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1218.010
+    technique_name: Regsvr32
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1218.011
+    technique_name: Rundll32
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1219
+    technique_name: Remote Access Software
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1480.001
+    technique_name: Environmental Keying
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1482
+    technique_name: Domain Trust Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1484.002
+    technique_name: Domain Trust Modification
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 0
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: true
+  - technique_id: T1485
+    technique_name: Data Destruction
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1486
+    technique_name: Data Encrypted for Impact
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1489
+    technique_name: Service Stop
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1491.001
+    technique_name: Internal Defacement
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1496
+    technique_name: Resource Hijacking
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1497.001
+    technique_name: System Checks
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1505.003
+    technique_name: Web Shell
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1518.001
+    technique_name: Security Software Discovery
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1529
+    technique_name: System Shutdown/Reboot
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1539
+    technique_name: Steal Web Session Cookie
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1542.002
+    technique_name: Component Firmware
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1543.003
+    technique_name: Windows Service
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1546.003
+    technique_name: Windows Management Instrumentation Event Subscription
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1546.008
+    technique_name: Accessibility Features
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1546.010
+    technique_name: AppInit DLLs
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1546.013
+    technique_name: PowerShell Profile
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1547.001
+    technique_name: Registry Run Keys / Startup Folder
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1547.004
+    technique_name: Winlogon Helper DLL
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1547.005
+    technique_name: Security Support Provider
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1547.009
+    technique_name: Shortcut Modification
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1550
+    technique_name: Use Alternate Authentication Material
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1550.003
+    technique_name: Pass the Ticket
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1552.001
+    technique_name: Credentials In Files
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1552.004
+    technique_name: Private Keys
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1553.002
+    technique_name: Code Signing
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1553.006
+    technique_name: Code Signing Policy Modification
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1555
+    technique_name: Credentials from Password Stores
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1555.003
+    technique_name: Credentials from Web Browsers
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: true
+  - technique_id: T1555.004
+    technique_name: Windows Credential Manager
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1556.002
+    technique_name: Password Filter DLL
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1560
+    technique_name: Archive Collected Data
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1560.001
+    technique_name: Archive via Utility
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1560.002
+    technique_name: Archive via Library
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1560.003
+    technique_name: Archive via Custom Method
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1561.001
+    technique_name: Disk Content Wipe
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1561.002
+    technique_name: Disk Structure Wipe
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1562.001
+    technique_name: Disable or Modify Tools
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1562.002
+    technique_name: Disable Windows Event Logging
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1562.004
+    technique_name: Disable or Modify System Firewall
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: true
+  - technique_id: T1564.001
+    technique_name: Hidden Files and Directories
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1564.003
+    technique_name: Hidden Window
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1564.005
+    technique_name: Hidden File System
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1566
+    technique_name: Phishing
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1566.001
+    technique_name: Spearphishing Attachment
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1566.002
+    technique_name: Spearphishing Link
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1566.003
+    technique_name: Spearphishing via Service
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 4
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1567.002
+    technique_name: Exfiltration to Cloud Storage
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1568
+    technique_name: Dynamic Resolution
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1568.002
+    technique_name: Domain Generation Algorithms
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1568.003
+    technique_name: DNS Calculation
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1569.002
+    technique_name: Service Execution
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1570
+    technique_name: Lateral Tool Transfer
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1571
+    technique_name: Non-Standard Port
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1573.001
+    technique_name: Symmetric Cryptography
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1574.001
+    technique_name: DLL Search Order Hijacking
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1574.002
+    technique_name: DLL Side-Loading
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1606.001
+    technique_name: Web Cookies
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: true
+  - technique_id: T1606.002
+    technique_name: SAML Tokens
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 0
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: true
+  - technique_id: T1583.006
+    technique_name: Web Services
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: false
+  - technique_id: T1583.001
+    technique_name: Domains
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1584.001
+    technique_name: Domains
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: false
+  - technique_id: T1027.003
+    technique_name: Steganography
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1027.005
+    technique_name: Indicator Removal from Tools
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1059.005
+    technique_name: Visual Basic
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 3
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1070.006
+    technique_name: Timestomp
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-21T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-20T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: true
+  - technique_id: T1098.002
+    technique_name: Exchange Email Delegate Permissions
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: false
+  - technique_id: T1203
+    technique_name: Exploitation for Client Execution
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: false
+  - technique_id: T1542.003
+    technique_name: Bootkit
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: false
+  - technique_id: T1558.003
+    technique_name: Kerberoasting
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-25T00:00:00.000Z
+            score: -1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: null
+            score: 0
+            comment: ''
+            auto_generated: false
+  - technique_id: T1584.003
+    technique_name: Virtual Private Server
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 0
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: false
+  - technique_id: T1584.006
+    technique_name: Web Services
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1584.004
+    technique_name: Server
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 0
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 1
+            comment: ''
+            auto_generated: false
+  - technique_id: T1589.002
+    technique_name: Email Addresses
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1587.001
+    technique_name: Malware
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: false
+  - technique_id: T1587.003
+    technique_name: Digital Certificates
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: false
+  - technique_id: T1588.001
+    technique_name: Malware
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: false
+  - technique_id: T1588.004
+    technique_name: Digital Certificates
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 4
+            comment: ''
+            auto_generated: false
+  - technique_id: T1195.002
+    technique_name: Compromise Software Supply Chain
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 0
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 2
+            comment: ''
+            auto_generated: false
+  - technique_id: T1548.002
+    technique_name: Bypass User Account Control
+    detection:
+      - applicable_to:
+          - all
+        location: []
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 1
+            comment: ''
+    visibility:
+      - applicable_to:
+          - all
+        comment: ''
+        score_logbook:
+          - date: 2021-05-26T00:00:00.000Z
+            score: 3
+            comment: ''
+            auto_generated: false
